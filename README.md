@@ -1,6 +1,3 @@
-# PV-Propector
-QGIS Plugin to visualize and assess PV installation potential for residential properties in Milton Keynes Borough.
-
 # PV Prospector QGIS Plugin
 ## Introduction
 PV Prospector is a QGIS plugin designed to visualize the PV (Photovoltaic) installation potential for residential properties in Milton Keynes Borough. The plugin streamlines the decision-making process for sustainable energy planning.
