@@ -5,12 +5,12 @@
 [general]
 name=PV Prospector
 qgisMinimumVersion=3.0
-description=Displays the PV installation potential for residential properties across MK Borough
+description=Displays the PV installation potential for residential properties. The pv_area layer is derived from 1m LIDAR DSM, OSMM building outlines and LLPG data.
 version=0.1
-author=GeoMaptric
+author=Peter Francon
 email=peter@geomaptric.co.uk
 
-about=Search results for Postcodes, displays the PV installation potential for residential properties across Milton Keynes Borough.
+about=Search results for Postcodes, displays the PV installation potential for residential rooftops. Searching for a postcode in a pv_area layer, derived from 1m LIDAR, osmm building outlines and LLPG data.
 
 tracker=https://github.com/peterfrancon/PV-Prospector/issues
 repository=https://github.com/peterfrancon/PV-Prospector
