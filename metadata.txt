@@ -12,8 +12,8 @@ email=peter@geomaptric.co.uk
 
 about=Search results for Postcodes, displays the PV installation potential for residential rooftops. Searching for a postcode in a pv_area layer, derived from 1m LIDAR, osmm building outlines and LLPG data.
 
-tracker=https://github.com/peterfrancon/PV-Prospector
-repository=https://github.com/peterfrancon/PV-Prospector
+tracker=http://github.com/peterfrancon/PV-Prospector
+repository=http://github.com/peterfrancon/PV-Prospector
 # End of mandatory metadata
 
 # Recommended items:
@@ -25,7 +25,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=python, Solar PV, Prospector, qgis3, uprn, address, local government, llpg
 
-homepage=https://github.com/peterfrancon/PV-Prospector
+homepage=http://github.com/peterfrancon/PV-Prospector
 category=Plugins
 icon=icon.png
 # experimental flag
@@ -44,4 +44,3 @@ Category of the plugin: Raster, Vector, Database or Web
 
 # If the plugin can run on QGIS Server.
 server=False
-
