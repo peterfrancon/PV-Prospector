@@ -6,13 +6,21 @@
 name=PV Prospector
 qgisMinimumVersion=3.0
 description=Displays the PV installation potential for residential properties. The pv_area layer is derived from 1m LIDAR DSM, OSMM building outlines and LLPG data.
+<<<<<<< HEAD
+version=0.2
+=======
 version=0.1
+>>>>>>> 07c9ab8096792a958f0d5fd4a4abed5b0c8c8c60
 author=Peter Francon
 email=peter@geomaptric.co.uk
 
 about=Search results for Postcodes, displays the PV installation potential for residential rooftops. Searching for a postcode in a pv_area layer, derived from 1m LIDAR, osmm building outlines and LLPG data.
 
+<<<<<<< HEAD
+tracker=http://github.com/peterfrancon/PV-Prospector/issues
+=======
 tracker=http://github.com/peterfrancon/PV-Prospector
+>>>>>>> 07c9ab8096792a958f0d5fd4a4abed5b0c8c8c60
 repository=http://github.com/peterfrancon/PV-Prospector
 # End of mandatory metadata
 
@@ -40,7 +48,15 @@ deprecated=False
 # plugin_dependencies=
 
 Category of the plugin: Raster, Vector, Database or Web
+<<<<<<< HEAD
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
+=======
 # category=Vector
 
 # If the plugin can run on QGIS Server.
 server=False
+>>>>>>> 07c9ab8096792a958f0d5fd4a4abed5b0c8c8c60
