@@ -1,0 +1,47 @@
+PV Prospector Plugin for QGIS v0.3
+==================================
+
+**Overview**
+------------
+The PV Prospector Plugin is designed to help assess the solar photovoltaic (PV) installation potential across residential properties. This tool is aimed at local governments, planners, and renewable energy consultants.
+
+**Widgets Explained**
+---------------------
+
+- **ComboBox (cb_selectdata)**:
+    - **Purpose**: Allows the user to select the layer they wish to query.
+    - **Usage**: Use the dropdown to select a layer.
+
+- **LineEdit (le_postcode)**:
+    - **Purpose**: To enter a postcode to search for addresses.
+    - **Usage**: Enter a valid postcode and hit 'Enter'.
+
+- **ListWidget (listWidget_address)**:
+    - **Purpose**: Lists addresses that match the postcode.
+    - **Usage**: Double-click an address to zoom to it on the map.
+
+- **LineEdit (le_showpvarea)**:
+    - **Purpose**: Displays the PV area for the selected address.
+    - **Usage**: This field is automatically populated when an address is selected.
+
+How to Use the Plugin
+---------------------
+
+1. **Select a Layer**: Use the ComboBox (cb_selectdata) to select a data layer.
+2. **Enter Postcode**: Input a postcode in the LineEdit field (le_postcode) and press 'Enter'.
+3. **Select Address**: Double-click an address in the ListWidget (listWidget_address) to zoom to its location.
+4. **View PV Area**: The PV area for the selected address will be displayed in LineEdit (le_showpvarea).
+
+Buttons
+---------------------
+
+- **OK**: Ok closes the PV Prospector dialog box and clears all settings.
+- **Cancel**: Cancel closes the dialog box and cancels the current operation.
+- **Help**: opens the plugin Help screen in the user's browser.
+
+Refinements in v0.3
+---------------------
+
+- **Responsive dialog ui**: Resizing the dialog resizes the widgets neatly within the box.
+- **Layer Selection Check**: Only a vector layer can be selected.
+- **Postcode validity Check**: Postcodes can be entered in lower or mixed case. An error message will be displayed if the mid space is missing.
